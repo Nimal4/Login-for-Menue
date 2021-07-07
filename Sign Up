@@ -1,0 +1,40 @@
+<!Doctype html>
+<html>
+<head>
+	<style>
+	body{background: linear-gradient(to right,grey,navajowhite,grey);}
+	h1{font-family: Marker Felt, fantasy;}
+	label{font-family: fantasy;font-size: 30px}
+	input{background-color: rgb(168, 127, 76);border: 5px solid rgb(219, 159, 86);padding: 10px;margin: 25px;color: rgb(242, 234, 174);;font-size: 12px;}
+	input[type=submit]{background-color: rgb(227, 136, 23);color: rgb(242, 234, 174);border-radius: 10px}
+	input:focus{background-color: rgb(235, 182, 117);color: rgb(255, 236, 143);}
+</style>
+	<title>login page</title>
+	</head>
+	<body>
+		<h1><center>Sign Up</h1></center>
+		<center>
+			<form action="Menue.html"target="_blank"Method=get>
+				<fieldset>
+					<legend>Dosanians</legend>
+					<table>
+						<tr>
+							<td>
+<label>Name</label></td><td><input type="text"name="name"placeholder="enter your name" required></td></tr>
+<tr>
+	<td>
+<label>Password</label></td><td><input type="password" name="pass"placeholder="enter your password" required></td></tr>
+<tr>
+	<td>
+<label>Age</label></td><td><input type="number"name="age"></td></tr>
+<tr>
+	<td>
+<label>Email</label></td><td><input type="email"name="email"placeholder="enter your email address" required></td></tr>
+<tr>
+	<td colspan="2">
+<input type="submit"value="create account"></td></tr>
+</form>
+</fieldset>
+</center>
+	</body>
+</html>
